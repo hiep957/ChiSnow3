@@ -1,0 +1,153 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    margin-top: 30px;
+    background: #F2E9EB;
+    color: #31383F;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #E6E6FA; 
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+    
+}
+
+
+
+.logo{
+    font-size: 15px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #31383F;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover
+{
+    color: red;
+}
+
+.home {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 100px;
+    position: relative;
+}
+.home-content {
+    
+    /*background: yellowgreen;*/
+    /* position:absolute; */
+    top: 100px;
+    width: 100%;
+    height: 120px;
+    align-items: start;
+    justify-content: start;
+}
+
+.home-content h1 {
+    font-size : 42px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+
+.wrap-home-picture {
+    margin-top: 10px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #00abf0; */
+    align-items: center;
+}
+
+.content-home-picture {
+    /* align-content: center; */
+    font-size: 30px;
+    margin-bottom: 20px;
+
+} 
+.home-picture {
+    
+    /* background-color: #00abf0; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .home-content img {
+    margin-right: 20px ;
+} */
+
+.three_link-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+
+}
+
+.three-link_content{
+    font-size: 30px;
+}
+
+.three-links  ul{
+    margin-left: 30px ;
+   
+    
+}
+
+.three_link-content .three-links ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.social-media {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.facebook {
+    display: flex;
+}
+
+.facebook a {
+    margin-left: 10px;
+    font-size: 26px;
+}
+.instagram {
+    display: flex;
+}
+
+.instagram a {
+    margin-left: 10px;
+    font-size: 26px;
+}
